@@ -1,0 +1,13 @@
+import pandas as pd
+
+df = pd.read_excel("/content/Pendências Qualicard (2).xlsx")
+df = df.pivot_table(
+    values=["Valor Liberado"],
+    index=["Agente"],
+    columns=["Atividade"],
+    aggfunc="sum"
+).reset_index()
+df.fillna(0, inplace=True)
+
+
+df.to_excel("Pendência Por consultor.xlsx")
