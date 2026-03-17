@@ -1,2 +1,1 @@
-# Pivot-table-per-consulter
- Repositório dedicado à criação e uso de tabelas dinâmicas para análise de dados de consultas. Inclui scripts, exemplos e documentação que permitem organizar, resumir e visualizar informações de forma prática, apoiando consultores e analistas na tomada de decisão.
+Repositório para automação de tabelas dinâmicas e análise de performance de consultoria. Este projeto foca em transformar arquivos CSV/Excel em insights estratégicos (KPIs) de forma rápida e escalável.
